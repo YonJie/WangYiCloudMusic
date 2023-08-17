@@ -50,9 +50,11 @@
   "devDependencies": {
     "@craco/craco": "7.0.0-alpha.9",
     "@types/react-router-dom": "5.3.3",
+    "@types/styled-components": "5.1.26",
     "eslint": "8.47.0",
     "eslint-config-prettier": "9.0.0",
     "eslint-plugin-prettier": "5.0.0",
-    "prettier": "3.0.1"
+    "prettier": "3.0.1",
+    "styled-components": "6.0.7"
   }
 }
