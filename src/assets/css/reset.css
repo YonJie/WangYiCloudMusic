@@ -22,21 +22,17 @@ ins {
   margin: 0;
   padding: 0;
 }
-
 a {
   text-decoration: none;
   color: #333;
 }
-
 img {
   vertical-align: top;
 }
-
 ul,
 li {
   list-style: none;
 }
-
 button {
   outline: none;
   border: none;

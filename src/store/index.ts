@@ -6,8 +6,12 @@ import {
   shallowEqual
 } from 'react-redux'
 
+import recommendSlice from '../views/discover/c-views/recommend/store/recommend'
+
 const store = configureStore({
-  reducer: {}
+  reducer: {
+    recommend: recommendSlice
+  }
 })
 
 type GetStateFnType = typeof store.getState
