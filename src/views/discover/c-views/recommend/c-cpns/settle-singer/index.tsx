@@ -28,7 +28,7 @@ const SettleSinger: FC<IProps> = () => {
               <img src={getImageUrl(item.picUrl, 80)} alt="" />
               <div className="info">
                 <div className="name">{item.name}</div>
-                <div className="alia">{item.alias.join(' ')}</div>
+                <div className="alias">{item.alias.join(' ')}</div>
               </div>
             </a>
           )

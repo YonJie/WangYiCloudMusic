@@ -6,11 +6,13 @@ import {
   shallowEqual
 } from 'react-redux'
 
-import recommendSlice from '../views/discover/c-views/recommend/store/recommend'
+import recommendReducer from '../views/discover/c-views/recommend/store/recommend'
+import playerReducer from '../views/player/store/player'
 
 const store = configureStore({
   reducer: {
-    recommend: recommendSlice
+    recommend: recommendReducer,
+    player: playerReducer
   }
 })
 
